@@ -2,6 +2,8 @@ from django.http import HttpResponse, HttpResponseNotFound
 from django.shortcuts import render
 
 # Create your views here.
+def monthly_challenge_by_number(request, month):
+    return HttpResponse("Month by number")
 
 def monthly_challenge(request, month):
     challenge_text=None
