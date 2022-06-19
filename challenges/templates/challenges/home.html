@@ -4,6 +4,9 @@
 
 
 {% block content %}
+
+{% include "./includes/header.html" %}
+
 {% for month in month_list %}
     <h2><li><a href="{% url "month-chall" month %}">{{ month|title }}</a></li></h2>
 {% endfor %}
