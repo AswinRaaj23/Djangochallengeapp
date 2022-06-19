@@ -15,7 +15,7 @@ monthly_challenges={
     "september":"learn keyboard",
     "october":"play games",
     "november":"drink green tea",
-    "december":"jog daily"
+    "december":None
 }
 # Create your views here.
 
